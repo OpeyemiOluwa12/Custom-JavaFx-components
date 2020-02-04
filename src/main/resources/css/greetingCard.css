@@ -1,0 +1,65 @@
+.main {
+    -fx-min-width: 200px;
+    -fx-max-width: 400px;
+    -fx-min-height: 400px;
+    -fx-max-height: 600px;
+
+    -fx-border-radius: 2px;
+    -fx-background-radius: 2px;
+    -fx-border-color: #6c757d;
+}
+
+.topCard {
+    -fx-padding: 20px;
+    -fx-spacing: 20px;
+    -fx-alignment: center;
+
+}
+
+.cardTitle {
+
+    -fx-font-family: 'work sans Bold';
+    -fx-font-size: 20px;
+}
+
+.cardContent {
+    -fx-font-family: 'work sans light';
+    -fx-font-size: 16px;
+    -fx-fill: #6c757d;
+
+}
+
+.bottomCard {
+    -fx-min-width: 200px;
+    -fx-max-width: 400px;
+    -fx-min-height: 20px;
+    -fx-max-height: 40px;
+    -fx-padding: 20px;
+}
+
+.image {
+
+}
+
+.readMoreButton {
+    -fx-background-color: #b84373;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'work sans light';
+    -fx-font-size: 16px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+.icon{
+    -fx-fill: #6c757d;
+}
+.author{
+    -fx-fill: #007bff;
+    -fx-font-family: 'work sans Bold';
+}
+.noOfComment{
+    -fx-text-fill: #007bff;
+    -fx-font-family: 'work sans Bold';
+}
+.date{
+    -fx-text-fill: #6c757d;
+}
